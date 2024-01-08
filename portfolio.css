@@ -1,6 +1,13 @@
  /* common shared styles */
-
- body {
+h4 {
+    margin-block-start: 0;
+    margin-block-end: 0;
+}
+p {
+    margin-block-start: 0;
+    margin-block-end: 0;
+}
+body {
      font-family: 'Open Sans', sans-serif;
 
  }
@@ -168,7 +175,36 @@
 
  .resume-column-title {
      color: #474747;
-     font-size: 30px;   
+     font-size: 30px;
      font-weight: 700;
-    
-}
+
+ }
+
+ .resume-container {
+     display: flex;
+     gap: 50px;
+ }
+
+ .resume-part-dec,
+ .resume-part-institute {
+     color: #757575;
+ }
+
+ .resume-part-title {
+     color: #474747;
+     font-size: 25px;
+     font-weight: 700;
+ }
+
+ .resume-container hr{
+    margin: 30px;
+ }
+
+ .resume-part-institute{
+    margin-top: 0;
+    margin-bottom: 20px;
+ }
+ .download-cv{
+    text-align: center;
+    margin-top: 50px;
+ }
