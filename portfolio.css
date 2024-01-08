@@ -124,3 +124,16 @@
     justify-content: space-around;
     text-align: center;
  }
+ .info-title{
+    color: #757575;
+ }
+
+ .info-dec{
+    color: #474747;
+font-size: 20px;
+font-weight: 700;
+line-height: 30px;
+ }
+ #what-i-do-dec{
+    padding: 30px 150px;
+ }
